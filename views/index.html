@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="../assests/style.css">
+</head>
+<body>
+  <!--Area principal do documento-->
+  <main>
+    <!--div lateral esqueda -->
+    <div class="left-login">
+      <h1>Faça login <br> entre para o nosso time </h1>
+      <img src="../assests/rocket-animate.svg" alt="foguete" class="left-image">
+    </div>
+    <!--div lateral direita-->
+    <div class="rigth-login">
+      <!--Card da div lateral direita-->
+      <div class="card-login">
+        <h1>LOGIN</h1>
+        <div class="text-field">
+          <label for="user">usuario</label>
+          <input type="text" id="user" placeholder="nome de usuario">
+        </div>
+
+        <div class="text-field">
+          <label for="password">senha</label>
+          <input type="password" id="password" placeholder="digite sua senha" riquired>
+        </div>
+        <input type="submit" class="btn-login" onclick="logar(); return false">
+        <p><a href="subscribe.html" desabled>Não tem conta? inscreva-se</a></p>
+      </div>
+    </div>
+  </main>
+  <script src="../script/script.js"></script>
+</body>
+</html>
