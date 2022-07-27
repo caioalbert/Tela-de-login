@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>inscreva-se</title>
+  <link rel="stylesheet" href="../assests/style.css">
+  <link rel="stylesheet" href="../assests/subscribe.css">
 </head>
-<body>
-  <main>
-    <header>
-      <h1>preencha o formulario de cadastros</h1>
-    </header>
-    <form action="">
-      <caption>formulario</caption>
-      <div class="form-control">
 
+<body>
+  <!--Area principal do documento-->
+  <main>
+    <div class="rigth-login">
+      <!--Card da div lateral direita-->
+      <div class="card-login">
+          <div class="voltar">
+            <a href="./index.html">
+              <img src="../assests/free_icon_1.svg" alt="" size="5px">
+            </a>
+          </div>
+          
+          <h1>Cadastro</h1>
+          <div class="text-field">
+            <label for="user">usuário</label>
+            <input type="text" id="user" placeholder="nome de usuário">
+          </div>
+
+          <div class="text-field">
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="digite sua senha" riquired>
+          </div>
+          
+          <input type="submit" class="btn-login" value="inscrever-se" onclick="" disabled>
       </div>
-    </form>
+    </div>
   </main>
+  <script src="../script/script.js"></script>
 </body>
+
 </html>

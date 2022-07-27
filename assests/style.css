@@ -4,7 +4,10 @@ body{
   margin: 0;
   font-family: 'Noto Sans', sans-serif;
 }
-
+a{
+  color: #ffff;
+  text-decoration: none;
+}
 body *{
   box-sizing: border-box;
 }
@@ -28,7 +31,7 @@ main{
 }
 
 .left-login > h1 {
-  font-size: 3w;
+  font-size: 3vw;
   color: #77ffc0;
 }
 
